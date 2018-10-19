@@ -51,7 +51,7 @@ export default class Login extends Component {
         <View behavior="padding" style={styles.container}>
           <View style={styles.logoContainer}>
             <Image style={styles.logo} source={require("./flogo.png")} />
-            <Text style={styles.subtext}>My Cool App</Text>
+            <Text style={styles.subtext}>FARMIA</Text>
           </View>
           <KeyboardAvoidingView style={styles.keyboard}>
             <View style={styles.window}>
@@ -116,7 +116,7 @@ export default class Login extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#16a085"
+    backgroundColor: "rgb(255,255,255)"
   },
   logoContainer: {
     alignItems: "center",
@@ -125,8 +125,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   logo: {
-    width: 200,
-    height: 150
+    width: 100,
+    height: 50
   },
   subtext: {
     color: "#ffffff",
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     alignSelf: "stretch"
   },
   buttonContainer: {
-    backgroundColor: "rgba(255,255,255,0.2)",
+    backgroundColor: "rgb(251,90,3)",
     paddingVertical: 15
   },
   buttonText: {
